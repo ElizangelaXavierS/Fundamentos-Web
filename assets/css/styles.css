@@ -1,0 +1,179 @@
+
+* {
+padding: 0;
+margin: 0;
+}
+body{
+  background-color: #E1E2E5
+}
+
+.menu{
+font-size: 32px;
+display: flex; 
+gap: 25px;
+list-style: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #5C5151;
+}
+
+.menu li a:hover{
+  color: #ffb6c1;
+}
+
+.h1{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  color: #5C5151;
+}
+
+.h1:hover{
+  color: #ffb6c1;
+}
+
+
+.container {
+display: flex;
+justify-content:center;
+align-items: center;
+background: #ffb6c1;
+border-radius: 15px;
+padding: 15px;
+width: 75%;
+margin: 0 auto;
+
+}
+
+img{
+  border-radius: 400px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.p1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,;
+  text-align: justify;
+  display:flexbox;
+  margin: 2px;
+}
+p{
+  margin: 10px;
+}
+
+
+.video {
+width: 75%;
+aspect-ratio: 16/9;
+margin: 0 auto;
+display: block;
+
+}
+
+.h2{
+  margin: 20px;
+}
+
+.h2:hover:hover{
+  color: #ffb6c1;
+}
+.container-redesocial{
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+  width: 75%;
+  margin: 0 auto;
+
+}
+.tm-social{
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+
+
+}
+hr{
+  margin-top: 25px;
+}
+
+/*Contato*/
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid var(--dark-yellow);
+  background-color: #ffb6c1;
+  color: var(--black);
+}
+
+button:hover {
+  background-color: #5C5151;
+  cursor: pointer;
+}
+
+.form-ende{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70vh;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form form{
+  margin: 0 auto;
+  width: 30vw;
+  padding: 0 2rem;
+}
+
+.ender{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.ender p{
+  text-align: center;
+}
+
+.ender iframe{
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+/*projetos*/
+.projetos-titulo{
+  list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+    color:#5C5151;
+}
+
+.projetos-item{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  color: #5C5151;
+}
+  
+  .projetos-item a{
+    color: #1c1c1c;
+    text-decoration: none;
+
+
+}
