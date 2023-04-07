@@ -10,7 +10,7 @@
 <body>
     <ul class="menu">
         <li>
-            <a href="/Fundamentos-Web//index.html">Home</a>
+            <a href="">Home</a>
         </li>
         <li>
             <a href="/Fundamentos-Web//projetos.html">Projetos</a>
@@ -24,18 +24,20 @@
         <div class="form">
             <form>
                 <label for="nome">Nome:</label><br>
-                <input type="text" id="nome">
-                <br>
+                <input type="text" id="nome" onkeyup="validaNome ()">
+                <div id="txtNome"></div>
+                
                 <br>
                 <label for="email">Email:</label><br>
-                <input type="text" id="Email">
-                <br>
+                <input type="text" id="email" onkeyup="validaEmail ()">
+                <div id="txtEmail"></div>
+              
                 <br>
                 <label for="assunto">Assunto:</label><br>
-                <textarea name="" id="assunto"cols="30" rows="10"></textarea>
+                <textarea name="" id="assunto"cols="30" rows="10" onkeyup="validaAssunto ()" ></textarea>
+                <div id="txtAssunto"></div>
                 <br>
-                <br>
-                <button>Enviar</button>
+                <button onclick="enviar()">Enviar</button>
             </form>
         </div>
         <div class="ender">
@@ -53,6 +55,9 @@
             allowfullscreen="" 
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade"
+            id="mapa"
+            onmousemove="mapaZoom()"
+            onmouseout="mapaNormal()"
             ></iframe>
         </div>
             
@@ -78,6 +83,6 @@
    
 </footer>
     
-    
+<script src="./assets/js/script.js"></script>    
 </body>
 </html>
